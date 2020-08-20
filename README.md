@@ -33,6 +33,8 @@ Add an OAuth Scope を押し、`chat:write`と`users:read`を選択しましょ�
 ubuntu: https://qiita.com/ekzemplaro/items/c98c7f6698f130b55d53  
 Mac: https://qiita.com/berry-clione/items/b3a537962c84244a2a09  
 ちゃんと使える状態になっているかは[test_macab.py](https://github.com/1234567890Joe/n575_slackbot/blob/master/test_macab.py)を実行して、横浜流星が1単語になっているかで確認できます。  
+MeCab: https://taku910.github.io/mecab/  
+NEologd: https://github.com/neologd/mecab-ipadic-neologd
 
 ## slackでメッセージを投げた時にそれを拾ってくれるサーバーを作る
 あなたのターミナル上で下記のコマンドを順番に実行してください。SLACK_BOT_TOKENにはさっきの秘密の文字列が入ります。SLACK_SIGNING_SECRETは左サイドバーの Basic Information をクリックして、下にスクロールしていくと App Credentials という場所があります。この中の Signing Secret を入れます。(この Signing Secret も秘密なので扱いには気を付けましょう)  
